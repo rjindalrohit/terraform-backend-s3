@@ -31,9 +31,9 @@ This script can be used to create s3 bucket and dynamodb table for terraform sta
 
         s3_backend_config_block = 
         backend "s3" {
-          bucket = terraform-backend-state-s3-bucket
+          bucket = XXXXXXXXXXXX
           key    = "terraform.tfstate"
           region = us-east-1
-          dynamodb_table = terraform_backend_state_locking_db
+          dynamodb_table = XXXXXXXXXXXXXXXX
           encrypt = true
         }
