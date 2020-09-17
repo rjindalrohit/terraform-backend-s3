@@ -13,8 +13,8 @@ This script can be used to create s3 bucket and dynamodb table for terraform sta
 		
 			terraform.tfvars
 			-----
-			bucket_name   = "terraform-backend-state-s3-bucket"
-			dynamodb_table = "terraform_backend_state_locking_db"
+			bucket_name   = "******************************"
+			dynamodb_table = "*****************************"
 			s3_encryption = true
 			region = "us-east-1"
     
